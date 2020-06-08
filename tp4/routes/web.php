@@ -19,19 +19,12 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('/ranime/',"saber@go");
 
 
 
-
-
-
-
-
-
-
-
-
+Route::get('/',function(){
+   return view('Template');
+});
 
    Route::get('/matiere','MatController@affiche');
    
